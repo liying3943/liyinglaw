@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wong Li Ying 王莉茵律师 | Advocate &amp; Solicitor, Kuala Lumpur</title>
+<meta name="description" content="Property conveyancing lawyer in Kuala Lumpur — sale &amp; purchase, loan documentation, family transfers and foreign buyers. 产业律师：房屋买卖、贷款文件、产业转名。">
+
+<!-- WhatsApp / Facebook link preview (Open Graph) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://liyinglaw.vercel.app/">
+<meta property="og:title" content="Wong Li Ying 王莉茵律师 | Advocate &amp; Solicitor">
+<meta property="og:description" content="Property conveyancing in Kuala Lumpur · 房屋买卖、贷款文件、产业转名">
+<meta property="og:image" content="https://liyinglaw.vercel.app/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+<script src="config.js"></script>
+<style>
+  :root{
+    --ink:#2A251F; --ink2:#3D362E; --muted:#5C5348; --body:#4A433A;
+    --gold:#C9A44C; --gold-ink:#8A6A22; --star:#B8952E;
+    --bg:#F7F3EC; --hero:#EDE6DA; --light:#FBF8F2; --card:#F1EADF; --deep:#E6DCCB; --line:#E6E0D4; --field:#C9BCA6;
+    --serif:'Cormorant Garamond',serif; --sans:Inter,system-ui,sans-serif;
+  }
+  html[lang="zh"]{ --serif:'Noto Serif SC',serif; --sans:'Noto Sans SC',Inter,sans-serif; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+  a{color:var(--ink)} a:hover{color:var(--gold-ink)}
+  .wrap{max-width:1120px;margin:0 auto}
+  .eyebrow{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--gold-ink)}
+  html[lang="zh"] .eyebrow{letter-spacing:2px}
+  .btn{display:inline-flex;align-items:center;gap:10px;min-height:54px;padding:0 32px;border-radius:999px;background:var(--gold);color:var(--ink);font-weight:600;font-size:16px;text-decoration:none;border:0;cursor:pointer;font-family:inherit}
+  .btn:hover{color:var(--ink);filter:brightness(1.04)}
+  .btn:disabled{opacity:.6;cursor:default}
+
+  /* hero */
+  .hero{background:var(--hero);padding:32px 24px 104px}
+  .top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;margin-bottom:80px}
+  .brand{font-family:'Noto Serif SC',serif;font-size:18px;font-weight:600;letter-spacing:1px}
+  nav{display:flex;flex-wrap:wrap;align-items:center;gap:28px;font-size:14px}
+  nav a{color:var(--ink2);text-decoration:none}
+  .lang{display:flex;padding:3px;border:1px solid var(--field);border-radius:999px;gap:2px}
+  .lang button{min-height:32px;min-width:52px;padding:0 14px;border:0;border-radius:999px;background:transparent;color:var(--ink2);font:500 13px var(--sans);cursor:pointer}
+  .lang button[aria-pressed="true"]{background:var(--ink);color:var(--light);font-weight:600}
+  .hero-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:72px;align-items:center}
+  .hero-copy{display:flex;flex-direction:column;gap:28px}
+  h1{margin:0;display:flex;flex-direction:column;gap:10px}
+  .name1{font-family:var(--serif);font-weight:500;font-size:clamp(48px,7vw,76px);line-height:1.05;letter-spacing:-.5px}
+  html[lang="zh"] .name1{font-size:clamp(44px,6vw,64px);letter-spacing:1px}
+  .name2{font-weight:500;font-size:26px;color:var(--gold-ink)}
+  .intro{margin:0;font-size:18px;line-height:1.75;color:var(--muted);max-width:460px}
+  .creds{display:flex;flex-direction:column;gap:6px;font-size:15px;line-height:1.6;color:var(--ink2)}
+  .portrait{display:block;width:100%;max-width:440px;height:540px;object-fit:cover;object-position:50% 0;background:#F3F3F1;border-radius:4px;margin:0 auto}
+
+  /* sections */
+  section.block{padding:112px 24px}
+  .head{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center;margin-bottom:56px}
+  h2{margin:0;font-family:var(--serif);font-weight:500;font-size:clamp(36px,5vw,52px);line-height:1.15;color:var(--ink)}
+  html[lang="zh"] h2{font-size:clamp(30px,4vw,42px)}
+  .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+  .svc{background:var(--light);border:1px solid var(--line);padding:40px 28px;display:flex;flex-direction:column;gap:16px}
+  .svc h3{margin:0;font-size:20px;font-weight:600}
+  .svc p{margin:0;font-size:15px;line-height:1.7;color:var(--body)}
+
+  #reviews{background:var(--light);border-top:1px solid var(--line);padding-bottom:104px}
+  .summary{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;margin-top:6px}
+  .stars{display:flex;gap:3px}
+  .note{margin:0;font-size:14px;color:var(--muted)}
+  .grid{columns:3 300px;column-gap:24px}
+  figure.rv{margin:0 0 24px;break-inside:avoid;background:var(--card);padding:32px;display:flex;flex-direction:column;gap:18px}
+  figure.rv blockquote{margin:0;font-family:Inter,sans-serif;font-size:16px;line-height:1.7;white-space:pre-line}
+  figure.rv figcaption{padding-top:16px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--muted)}
+  figure.rv strong{font-size:14px;color:var(--ink)}
+  figure.rv strong span{font-weight:400;color:var(--muted)}
+
+  /* form */
+  .write{margin-top:32px;background:var(--deep);display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:48px;padding:56px 48px;border-radius:4px}
+  @media (max-width:560px){.write{padding:36px 22px}}
+  .write h3{margin:0;font-family:var(--serif);font-weight:500;font-size:36px;line-height:1.25}
+  .write p{margin:0;font-size:15px;line-height:1.75;color:var(--muted)}
+  form{display:flex;flex-direction:column;gap:18px}
+  .field{display:flex;flex-direction:column;gap:8px}
+  label.l{font-size:14px;font-weight:600}
+  input[type=text],select,textarea{min-height:48px;padding:0 14px;border:1px solid var(--field);border-radius:4px;font:16px var(--sans);color:var(--ink);background:#fff;width:100%}
+  textarea{padding:12px 14px;line-height:1.6;resize:vertical;min-height:120px}
+  .rate{display:flex;gap:4px;border:0;padding:0;margin:0}
+  .rate legend{font-size:14px;font-weight:600;margin-bottom:8px;padding:0}
+  .rate input{position:absolute;opacity:0;width:1px;height:1px}
+  .rate label{cursor:pointer;width:44px;height:44px;display:flex;align-items:center;justify-content:center}
+  .rate label svg{fill:none;stroke:var(--star);stroke-width:1.5}
+  .rate label.on svg{fill:var(--star)}
+  .rate input:focus-visible + label{outline:2px solid var(--ink);border-radius:4px}
+  .consent{display:flex;gap:12px;align-items:flex-start;font-size:14px;line-height:1.6;color:var(--ink2)}
+  .consent input{width:20px;height:20px;margin:2px 0 0;flex:0 0 20px;accent-color:var(--ink)}
+  .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+  .msg{font-size:15px;line-height:1.6;padding:14px 16px;border-radius:4px;display:none}
+  .msg.ok{display:block;background:#E8F0E1;color:#2F4A22}
+  .msg.err{display:block;background:#F6E2DC;color:#7A2E1C}
+
+  footer{background:var(--ink);color:#D9CFBF;padding:28px 24px}
+  footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:13px;line-height:1.6}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="top">
+      <span class="brand">王莉茵律师</span>
+      <nav>
+        <a href="#services" data-i="navServices">Services</a>
+        <a href="#reviews" data-i="navReviews">Reviews</a>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="eyebrow" data-i="eyebrow">Advocate &amp; Solicitor · Kuala Lumpur</div>
+        <h1>
+          <span class="name1" data-i="name1">Wong Li Ying</span>
+          <span class="name2" data-i="name2" style="font-family:'Noto Serif SC',serif">王莉茵律师</span>
+        </h1>
+        <p class="intro" data-i="intro">Property conveyancing lawyer for home buyers, sellers and families in the Klang Valley.</p>
+        <div class="creds">
+          <span data-i="cred1">LLB (Hons), Cardiff University · CLP</span>
+          <span data-i="cred2">Lavinia, Dell Akbar, Tee &amp; Partners · Bangsar &amp; Mont Kiara</span>
+        </div>
+        <div>
+          <a class="btn" href="https://wa.me/60123787010?text=Hi%20Li%20Ying%2C%20I%20found%20your%20website%20and%20would%20like%20to%20ask%20about%20my%20property%20matter." target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+            <span data-i="cta">WhatsApp me</span>
+          </a>
+        </div>
+      </div>
+      <img class="portrait" src="portrait.jpg" alt="Wong Li Ying 王莉茵律师" width="440" height="540">
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="block" id="services">
+    <div class="wrap">
+      <div class="head">
+        <div class="eyebrow" data-i="servicesEyebrow">Services</div>
+        <h2 data-i="servicesTitle">How I can help</h2>
+      </div>
+      <div class="services">
+        <div class="svc">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8A6A22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>
+          <h3 data-i="s1t">Sale &amp; Purchase</h3><p data-i="s1d">Subsale and developer property, from signing to handover.</p>
+        </div>
+        <div class="svc">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8A6A22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="1"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>
+          <h3 data-i="s2t">Loan &amp; Refinancing</h3><p data-i="s2d">Loan agreements and refinancing documents with your bank.</p>
+        </div>
+        <div class="svc">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8A6A22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M2 20c.8-3.4 3.2-5 6-5s5.2 1.6 6 5"/><path d="M14 15.3c.6-.2 1.3-.3 2-.3 2.8 0 5.2 1.6 6 5"/></svg>
+          <h3 data-i="s3t">Family Transfers</h3><p data-i="s3d">Transferring a home or shop between parents, children and spouses.</p>
+        </div>
+        <div class="svc">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8A6A22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3M15 8l2 2"/></svg>
+          <h3 data-i="s4t">First-Time Buyers</h3><p data-i="s4d">What each document means, what you sign, and what happens next.</p>
+        </div>
+        <div class="svc">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8A6A22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>
+          <h3 data-i="s5t">Foreign Buyers</h3><p data-i="s5d">Property purchases by non-Malaysians, including the state consent process.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="reviews">
+    <div class="wrap">
+      <div class="head">
+        <div class="eyebrow" data-i="reviewsEyebrow">Client reviews</div>
+        <h2 data-i="reviewsTitle">In my clients' own words</h2>
+        <div class="summary">
+          <div class="stars" id="avgStars" role="img"></div>
+          <span id="avg" style="font-size:16px;font-weight:600"></span>
+          <span id="count" style="font-size:15px;color:var(--muted)"></span>
+        </div>
+        <p class="note" data-i="reviewsNote">Shown in each client's original words.</p>
+      </div>
+      <div class="grid" id="reviewList"></div>
+
+      <div class="write" id="write-review">
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <div class="eyebrow" data-i="formEyebrow">Write a review</div>
+          <h3 data-i="formTitle">Worked with me? Share your experience.</h3>
+          <p data-i="formNote">Your name and the date will be shown with your review.</p>
+        </div>
+        <form id="reviewForm" novalidate>
+          <div class="field">
+            <label class="l" for="rv-name" data-i="fName">Your name</label>
+            <input id="rv-name" name="name" type="text" maxlength="80" required data-ph="fNamePh" placeholder="e.g. Jason Chin">
+          </div>
+          <div class="field">
+            <label class="l" for="rv-type" data-i="fType">Type of matter</label>
+            <select id="rv-type" name="matter"></select>
+          </div>
+          <fieldset class="rate" id="rate">
+            <legend data-i="fRating">Your rating</legend>
+          </fieldset>
+          <div class="field">
+            <label class="l" for="rv-text" data-i="fReview">Your review</label>
+            <textarea id="rv-text" name="body" maxlength="2000" required data-ph="fReviewPh" placeholder="How was your experience?"></textarea>
+          </div>
+          <div class="hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <label class="consent">
+            <input type="checkbox" name="consent" required>
+            <span data-i="fConsent">I agree that this review and my name may be published on this website.</span>
+          </label>
+          <div class="msg" id="formMsg" role="status" aria-live="polite"></div>
+          <button class="btn" type="submit" id="submitBtn" style="justify-content:center"><span data-i="fSubmit">Submit review</span></button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Wong Li Ying 王莉茵律师 · Lavinia, Dell Akbar, Tee &amp; Partners</span>
+    <span data-i="footer">General information only, not legal advice.</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var T = {
+    en: {
+      navServices:'Services', navReviews:'Reviews', eyebrow:'Advocate & Solicitor · Kuala Lumpur',
+      name1:'Wong Li Ying', name2:'王莉茵律师',
+      intro:'Property conveyancing lawyer for home buyers, sellers and families in the Klang Valley.',
+      cred1:'LLB (Hons), Cardiff University · CLP', cred2:'Lavinia, Dell Akbar, Tee & Partners · Bangsar & Mont Kiara',
+      cta:'WhatsApp me', servicesEyebrow:'Services', servicesTitle:'How I can help',
+      s1t:'Sale & Purchase', s1d:'Subsale and developer property, from signing to handover.',
+      s2t:'Loan & Refinancing', s2d:'Loan agreements and refinancing documents with your bank.',
+      s3t:'Family Transfers', s3d:'Transferring a home or shop between parents, children and spouses.',
+      s4t:'First-Time Buyers', s4d:'What each document means, what you sign, and what happens next.',
+      s5t:'Foreign Buyers', s5d:'Property purchases by non-Malaysians, including the state consent process.',
+      reviewsEyebrow:'Client reviews', reviewsTitle:"In my clients' own words", reviewsNote:"Shown in each client's original words.",
+      reviewsWord:'client reviews',
+      formEyebrow:'Write a review', formTitle:'Worked with me? Share your experience.',
+      formNote:'Your name and the date will be shown with your review.',
+      fName:'Your name', fNamePh:'e.g. Jason Chin', fType:'Type of matter', fRating:'Your rating',
+      fReview:'Your review', fReviewPh:'How was your experience?',
+      fConsent:'I agree that this review and my name may be published on this website.',
+      fSubmit:'Submit review', sending:'Sending…',
+      thanks:'Thank you! Your review has been received and will appear here once it is checked.',
+      errFill:'Please fill in your name, rating and review, and tick the consent box.',
+      errSend:'Sorry, something went wrong. Please try again, or WhatsApp +6012 378 7010.',
+      footer:'General information only, not legal advice.',
+      matters:{sale:'Sale & Purchase', loan:'Loan / Refinancing', family:'Family property transfer', first:'First-time home buyer', foreign:'Foreign buyer', other:'Other'},
+      months:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+    },
+    zh: {
+      navServices:'服务项目', navReviews:'客户评价', eyebrow:'执业律师 · 吉隆坡',
+      name1:'王莉茵律师', name2:'Wong Li Ying',
+      intro:'产业律师，为巴生谷的购屋者、卖家及家庭处理产业事务。',
+      cred1:'英国卡迪夫大学法学士（荣誉）· CLP', cred2:'Lavinia, Dell Akbar, Tee & Partners · 孟沙及满家乐',
+      cta:'WhatsApp 联系我', servicesEyebrow:'服务项目', servicesTitle:'我能为您处理的事务',
+      s1t:'房屋买卖', s1d:'二手房及发展商新房，从签约到交钥匙。',
+      s2t:'房贷与转贷', s2d:'与银行之间的贷款合约及转贷文件。',
+      s3t:'家人产业转名', s3d:'父母、子女、配偶之间的房屋或店屋转名。',
+      s4t:'首次购屋', s4d:'每份文件是什么意思、要签什么、下一步是什么，都为您讲清楚。',
+      s5t:'外国买家', s5d:'非马来西亚公民购买产业，包括州政府批准等手续。',
+      reviewsEyebrow:'客户评价', reviewsTitle:'客户的真实反馈', reviewsNote:'评价保留客户原文。',
+      reviewsWord:'条客户评价',
+      formEyebrow:'写评价', formTitle:'曾委托过我？欢迎分享您的体验。',
+      formNote:'您的姓名及日期会与评价一同显示。',
+      fName:'您的姓名', fNamePh:'例如：陈伟明', fType:'事务类型', fRating:'您的评分',
+      fReview:'您的评价', fReviewPh:'请分享您的体验',
+      fConsent:'我同意此评价及我的姓名公开显示于本网站。',
+      fSubmit:'提交评价', sending:'提交中…',
+      thanks:'谢谢您！评价已收到，审核后便会显示在这里。',
+      errFill:'请填写姓名、评分及评价内容，并勾选同意框。',
+      errSend:'抱歉，提交失败。请再试一次，或 WhatsApp +6012 378 7010。',
+      footer:'仅供一般参考，不构成法律意见。',
+      matters:{sale:'房屋买卖', loan:'房贷 / 转贷', family:'家人产业转名', first:'首次购屋者', foreign:'外国买家', other:'其他'},
+      months:null
+    }
+  };
+
+  // Existing reviews from the Google Form (date = submission date)
+  var STATIC = [
+    {name:'Eamen Wong', matter:'family', rating:5, date:'2026-11-02', body:"Highly recommended! Very professional, responsible and helpful lawyer. She assisted me with the transfer of my father's shop property into my name. Throughout the entire process, she was very patient and explained every step clearly, making sure that my family and I understood everything. She also kept us well updated on the progress and handled everything smoothly and professionally, which gave us great peace of mind. Really appreciate her excellent service, patience and dedication. Thank you so much for making the whole process smooth and stress-free!"},
+    {name:'Mohd Sharimen Imran bin Huzamri', rating:5, date:'2026-10-08', body:'Proactively providing regular updates on progress.'},
+    {name:'Sarvan Kumar A/L Khanjan Singh', rating:5, date:'2026-09-29', body:'Overall well guided journey throughout the process and helpful person.'},
+    {name:'Ho Foo Khee', rating:5, date:'2026-09-28', body:'Great and nice person.'},
+    {name:'Jason Chin', rating:5, date:'2026-09-18', body:'Highly professional and reliable service. She explained everything clearly and patiently, making the whole process easy to understand. Very responsive, thorough, and attentive throughout. I really appreciate her guidance and would definitely recommend her legal services.'},
+    {name:'Kogilah', rating:5, date:'2026-09-18', body:'Easily contactable and reliable on any matter.'},
+    {name:'Arvinder Singh', rating:5, date:'2026-09-03', body:'Very friendly approach and good explanation and understanding provided to my queries.'},
+    {name:'Mustafa Kamil', rating:5, date:'2026-08-07', body:'Professional and quick response for any inquiries. Great work.'},
+    {name:'Tarvinraj', rating:5, date:'2026-08-04', body:'Thank you, Li Yin, for your professionalism, dedication, and support throughout the process. Your guidance, patience, and prompt communication made everything smooth and stress-free. I truly appreciate all your hard work. Wishing you continued success, and I will gladly recommend your services to others. Thank you once again!'},
+    {name:'Farah', matter:'first', rating:5, date:'2026-08-04', body:'Ms Liying is a professional lawyer. She is very kind & good person. Well explained & give us a lot of advises due to we are first time home buyer. Highly recommended for her service & attitude.'}
+  ];
+  var live = [];
+  var lang = 'en';
+  var rating = 0;
+  var CFG = window.LY_CONFIG || {};
+  var configured = CFG.SUPABASE_URL && CFG.SUPABASE_URL.indexOf('YOUR-PROJECT') === -1;
+
+  var STAR = '<svg width="SZ" height="SZ" viewBox="0 0 24 24" fill="#B8952E" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg>';
+  function stars(n, sz) { var s = ''; for (var i = 0; i < n; i++) s += STAR.replace(/SZ/g, sz); return s; }
+  function fmtDate(iso) {
+    var p = iso.slice(0, 10).split('-'), y = +p[0], m = +p[1], d = +p[2];
+    return lang === 'zh' ? (y + '年' + m + '月' + d + '日') : (d + ' ' + T.en.months[m - 1] + ' ' + y);
+  }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+  function renderReviews() {
+    var all = live.concat(STATIC).sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
+    var list = document.getElementById('reviewList'); list.innerHTML = '';
+    all.forEach(function (r) {
+      var f = el('figure', 'rv');
+      var st = el('div', 'stars'); st.setAttribute('role', 'img'); st.setAttribute('aria-label', r.rating + ' / 5'); st.innerHTML = stars(r.rating, 16);
+      var q = el('blockquote', null, r.body);
+      var c = el('figcaption'); var n = el('strong', null, r.name);
+      if (r.matter && r.matter !== 'other') { n.appendChild(el('span', null, ' · ' + T[lang].matters[r.matter])); }
+      c.appendChild(n); c.appendChild(el('span', null, fmtDate(r.date)));
+      f.appendChild(st); f.appendChild(q); f.appendChild(c); list.appendChild(f);
+    });
+    var avg = all.reduce(function (a, r) { return a + r.rating; }, 0) / all.length;
+    var avgStars = document.getElementById('avgStars');
+    avgStars.innerHTML = stars(Math.round(avg), 20); avgStars.setAttribute('aria-label', avg.toFixed(1) + ' / 5');
+    document.getElementById('avg').textContent = avg.toFixed(1);
+    document.getElementById('count').textContent = '· ' + all.length + ' ' + T[lang].reviewsWord;
+  }
+
+  function renderForm() {
+    var sel = document.getElementById('rv-type'), cur = sel.value; sel.innerHTML = '';
+    ['sale','loan','family','first','foreign','other'].forEach(function (k) {
+      var o = el('option', null, T[lang].matters[k]); o.value = k; sel.appendChild(o);
+    });
+    if (cur) sel.value = cur;
+    var fs = document.getElementById('rate');
+    fs.querySelectorAll('input,label').forEach(function (n) { n.remove(); });
+    for (var i = 1; i <= 5; i++) {
+      var inp = document.createElement('input'); inp.type = 'radio'; inp.name = 'rating'; inp.id = 'r' + i; inp.value = i; if (i === rating) inp.checked = true;
+      var lb = el('label'); lb.htmlFor = 'r' + i; lb.setAttribute('aria-label', i + ' / 5'); if (i <= rating) lb.className = 'on';
+      lb.innerHTML = '<svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg>';
+      inp.addEventListener('change', function (e) { rating = +e.target.value; renderForm(); document.getElementById('r' + rating).focus(); });
+      fs.appendChild(inp); fs.appendChild(lb);
+    }
+  }
+
+  function setLang(l) {
+    lang = l; document.documentElement.lang = l;
+    try { localStorage.setItem('ly-lang', l); } catch (e) {}
+    document.querySelectorAll('[data-i]').forEach(function (n) { n.textContent = T[l][n.getAttribute('data-i')]; });
+    document.querySelectorAll('[data-ph]').forEach(function (n) { n.placeholder = T[l][n.getAttribute('data-ph')]; });
+    document.querySelectorAll('.lang button').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.lang === l ? 'true' : 'false'); });
+    document.querySelector('.name2').style.fontFamily = l === 'zh' ? "'Cormorant Garamond',serif" : "'Noto Serif SC',serif";
+    renderReviews(); renderForm();
+  }
+  document.querySelectorAll('.lang button').forEach(function (b) { b.addEventListener('click', function () { setLang(b.dataset.lang); }); });
+
+  // Approved reviews submitted through the website
+  function loadLive() {
+    if (!configured) return;
+    fetch(CFG.SUPABASE_URL + '/rest/v1/reviews?select=name,matter,rating,body,created_at&order=created_at.desc', { headers: { apikey: CFG.SUPABASE_KEY } })
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (rows) {
+        live = rows.map(function (r) { return { name: r.name, matter: r.matter, rating: r.rating, body: r.body, date: r.created_at }; });
+        renderReviews();
+      }).catch(function () {});
+  }
+
+  document.getElementById('reviewForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var f = e.target, msg = document.getElementById('formMsg'), btn = document.getElementById('submitBtn');
+    var data = { name: f.name.value.trim(), matter: f.matter.value, rating: rating, body: f.body.value.trim(), consent: f.consent.checked, website: f.website.value };
+    msg.className = 'msg';
+    if (!data.name || !data.body || !rating || !data.consent) { msg.textContent = T[lang].errFill; msg.className = 'msg err'; return; }
+    if (!configured) { msg.textContent = T[lang].errSend; msg.className = 'msg err'; return; }
+    btn.disabled = true; btn.firstElementChild.textContent = T[lang].sending;
+    fetch(CFG.SUPABASE_URL + '/functions/v1/submit-review', {
+      method: 'POST', headers: { 'Content-Type': 'application/json', apikey: CFG.SUPABASE_KEY }, body: JSON.stringify(data)
+    }).then(function (r) { if (!r.ok) throw new Error(); return r.json(); })
+      .then(function () { f.reset(); rating = 0; renderForm(); msg.textContent = T[lang].thanks; msg.className = 'msg ok'; })
+      .catch(function () { msg.textContent = T[lang].errSend; msg.className = 'msg err'; })
+      .then(function () { btn.disabled = false; btn.firstElementChild.textContent = T[lang].fSubmit; });
+  });
+
+  var saved = null; try { saved = localStorage.getItem('ly-lang'); } catch (e) {}
+  setLang(saved === 'zh' ? 'zh' : 'en');
+  loadLive();
+})();
+</script>
+</body>
+</html>
